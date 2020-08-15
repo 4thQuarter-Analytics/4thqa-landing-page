@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    color: white;
+}
+
+a, a:link  {
+    color: white;
+    text-decoration: none;
+}
+
+.background {
+    background-image: url('../data/background.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+.twitter-placement {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+.main-phrase {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.countdown {
+    font-size: 30px;
+}
+
+hr {
+    margin: auto;
+    width: 100%;
+    color: white;
+}
