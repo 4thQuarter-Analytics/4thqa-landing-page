@@ -10,7 +10,7 @@ a, a:link  {
 }
 
 .background {
-    background-image: url('../data/background.jpg');
+    background-image: url('../img/background.jpg');
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -23,13 +23,13 @@ a, a:link  {
 .logo {
     position: absolute;
     top: 0;
-    left: 20px;
+    left: 25px;
 }
 
 .twitter-placement {
     position: absolute;
     bottom: 0;
-    left: 20px;
+    left: 25px;
 }
 
 .main-phrase {
