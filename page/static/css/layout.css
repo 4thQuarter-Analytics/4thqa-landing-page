@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    height: 173vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 0.2fr 1.5fr 1.2fr 2fr 0.1fr;
+    grid-template-areas:
+        "nav nav nav nav nav nav nav nav nav nav nav nav"
+        "main main main main main main main main main main main main"
+        "feature-projections feature-projections feature-projections feature-statistics feature-statistics feature-statistics feature-lineups feature-lineups feature-lineups feature-security feature-security feature-security"
+        "features features features features company company company company reach-us reach-us reach-us reach-us"
+        "copyright copyright copyright copyright copyright copyright copyright copyright copyright copyright copyright copyright";
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        height: 200vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 2.5fr 1.3fr 1.3fr 1.3fr 1.3fr 0.75fr 0.75fr 0.75fr 0.1fr;
+        grid-template-areas:
+            "nav"
+            "main"
+            "feature-projections"
+            "feature-statistics"
+            "feature-lineups"
+            "feature-security"
+            "features"
+            "company"
+            "reach-us"
+            "copyright";
+    }
+}
+
+#nav {
+    grid-area: nav;
+}
+
+#main {
+    grid-area: main;
+  }
+
+#feature-projections {
+    grid-area: feature-projections;
+}
+
+#feature-statistics {
+    grid-area: feature-statistics;
+}
+
+#feature-lineups {
+    grid-area: feature-lineups;
+}
+
+#feature-security {
+    grid-area: feature-security;
+}
+
+#features {
+    grid-area: features;
+}
+
+#company {
+    grid-area: company;
+}
+
+#reach-us {
+    grid-area: reach-us;
+}
+
+#copyright {
+    grid-area: copyright;
+}
