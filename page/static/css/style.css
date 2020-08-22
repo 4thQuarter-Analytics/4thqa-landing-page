@@ -5,6 +5,10 @@
     --color-white: #FFFFFF
 }
 
+body {
+    background-color: var(--color-dark-grey);
+}
+
 #nav {
     background-color: var(--color-white);
     color: var(--color-dark-grey);
